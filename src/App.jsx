@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { BrowserRouter as Router, Routes, Route, Link, useNavigate, useLocation } from 'react-router-dom';
 import { Brain, Zap, TrendingUp, MessageSquare, Bot, Settings, Menu, X, Phone, Mail, Instagram, Facebook, CheckCircle, ArrowRight, Sparkles, Globe, Target, Send, User, Building2, Video } from 'lucide-react';
-import icon from './assets/Icon.webp'; 
+import icon from './assets/ambarlogo.svg'; 
 import n8n from './assets/n8n-icon.webp'
 import openai from './assets/openai.png'
 import gemini from './assets/gemini-color.png'
@@ -374,8 +374,8 @@ e.preventDefault();
   const time = `${dia}/${mes}/${año} ${horas}:${minutos}:${segundos}`;
   try {
     await emailjs.send(
-      'service_uygscli',    
-      'template_e6wsbjy',    
+      'service_ps5ui66',    
+      'template_9w96mov',    
       {
         from_name: formData.name,
         from_email: formData.email,
@@ -384,7 +384,7 @@ e.preventDefault();
         message: formData.message,
         time: time
       },
-      'jA3VfIcyKi2PW69i0'     
+      '8nvWxb0NlZmaRU69I'     
     );
     
     setSubmitted(true);
