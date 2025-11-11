@@ -513,7 +513,7 @@ e.preventDefault();
               <h3 className="text-xl font-bold mb-6 text-white">Información de contacto</h3>
               <div className="space-y-4">
                 <a
-                  href="mailto:synapse.contact.ai@gmail.com"
+                  href="mailto:support@ambardev.com"
                   className="group flex items-center space-x-4 bg-white/5 rounded-xl p-4 hover:bg-white/10 transition-all duration-300 border border-white/10 hover:border-white/20"
                 >
                   <div className="bg-white/10 rounded-lg p-3">
@@ -521,7 +521,7 @@ e.preventDefault();
                   </div>
                   <div>
                     <p className="text-sm text-gray-500 mb-1">Email</p>
-                    <p className="text-white group-hover:text-gray-200 transition-colors text-sm">synapse.contact.ai@gmail.com</p>
+                    <p className="text-white group-hover:text-gray-200 transition-colors text-sm">support@ambardev.com</p>
                   </div>
                 </a>
 
