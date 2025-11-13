@@ -1,7 +1,6 @@
 import { useNavigate } from 'react-router-dom';
 import { Target, Zap, TrendingUp, Video, ArrowRight } from 'lucide-react';
 import Tech from '../components/Tech';
-import Logo3D from '../components/Logo3D';
 import { FadeIn } from '../components/ScrollAnimations';
 
 const HomePage = () => {
@@ -10,17 +9,12 @@ const HomePage = () => {
   return (
     <>
       {/* Hero Section with 3D Logo */}
-      <section className="min-h-screen pt-20 pb-20 px-4 sm:px-6 lg:px-8 relative flex items-center">
+      <section className="min-h-screen pt-20 pb-20 px-4 sm:px-6 lg:px-8 relative flex items-center overflow-hidden">
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_50%,rgba(255,255,255,0.05),transparent_50%)]"></div>
-        <div className="max-w-7xl mx-auto relative w-full">
-          
-          {/* 3D Logo Section */}
-          <FadeIn delay={0.1}>
-            <div className="mb-12">
-              <Logo3D />
-            </div>
-          </FadeIn>
+        
 
+
+        <div className="max-w-7xl mx-auto relative w-full z-10">
           <div className="text-center">
             <FadeIn delay={0.2}>
               <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold mb-6 leading-tight px-4">

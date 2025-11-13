@@ -7,6 +7,7 @@ import ServicesPage from './pages/ServicesPage';
 import AboutPage from './pages/AboutPage';
 import ContactPage from './pages/ContactPage';
 import NotFoundPage from './pages/NotFoundPage';
+import Logo3DLoader from './components/Logo3D';
 
 // Componente wrapper para animaciones de página
 const PageTransition = ({ children }) => {
@@ -59,6 +60,7 @@ const AmbarLanding = () => {
   return (
     <Router>
       <div className="min-h-screen bg-black text-white">
+        <Logo3DLoader />
         <Navigation />
         <AppRoutes />
         <Footer />
