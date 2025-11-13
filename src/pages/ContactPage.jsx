@@ -52,7 +52,7 @@ const ContactPage = () => {
   };
 
   return (
-    <section className="min-h-screen pt-32 pb-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-neutral-950 to-black relative">
+    <section className="min-h-screen pt-32 pb-20 px-4 sm:px-6 lg:px-8 ">
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_50%,rgba(255,255,255,0.05),transparent_70%)]"></div>
       <div className="max-w-6xl mx-auto relative">
         <FadeIn delay={0.1}>
@@ -69,7 +69,7 @@ const ContactPage = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-8">
           {/* Contact Form */}
           <FadeIn delay={0.2}>
-            <div className="bg-gradient-to-br from-white/10 to-white/5 backdrop-blur-sm border border-white/10 rounded-3xl p-8">
+            <div className=" bg-gradient-to-br from-white/5 to-white/[0.02] backdrop-blur-sm border border-white/10 rounded-3xl p-8">
               <h3 className="text-2xl font-bold mb-6 text-white flex items-center space-x-2">
                 <Send className="w-6 h-6" />
                 <span>Envíanos tus datos</span>
@@ -170,7 +170,7 @@ const ContactPage = () => {
           {/* Contact Info */}
           <div className="space-y-6">
             <FadeIn delay={0.3} direction="left">
-              <div className="bg-gradient-to-br from-white/10 to-white/5 backdrop-blur-sm border border-white/10 rounded-3xl p-8">
+              <div className="bg-gradient-to-br from-white/5 to-white/[0.02] backdrop-blur-sm border border-white/10 rounded-3xl p-8">
                 <h3 className="text-xl font-bold mb-6 text-white">Información de contacto</h3>
                 <div className="space-y-4">
                   <a
@@ -204,7 +204,7 @@ const ContactPage = () => {
 
             {/* Social Media */}
             <FadeIn delay={0.4} direction="left">
-              <div className="bg-gradient-to-br from-white/10 to-white/5 backdrop-blur-sm border border-white/10 rounded-3xl p-8">
+              <div className="bg-gradient-to-br from-white/5 to-white/[0.02] backdrop-blur-sm border border-white/10 rounded-3xl p-8">
                 <h3 className="text-xl font-semibold text-center mb-6 text-gray-300">Síguenos en redes sociales</h3>
                 <div className="flex justify-center space-x-4">
                   <a

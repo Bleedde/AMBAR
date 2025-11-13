@@ -30,7 +30,7 @@ const ServicesPage = () => {
   ];
 
   return (
-    <section className="min-h-screen pt-32 pb-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-black to-neutral-950 relative">
+    <section className="min-h-screen pt-32 pb-20 px-4 sm:px-6 lg:px-8 relative">
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_80%_20%,rgba(255,255,255,0.03),transparent_50%)]"></div>
       <div className="max-w-7xl mx-auto relative">
         <FadeIn delay={0.1}>

@@ -338,16 +338,14 @@ const Logo3D = () => {
         ref={containerRef} 
         className="w-full h-[500px] md:h-[600px] lg:h-[700px]"
       />
-      
-     
     </div>
   );
 };
 
 const Logo3DLoader = () => {
     return (
-    <div className="absolute top-0 right-0 w-1/2 h-1/2 flex  justify-start opacity-50 ">
-    <div className="w-full max-w-2xl scale-150 md:scale-100 lg:scale-125">
+  <div className="absolute top-56 right-0 w-full md:w-1/2 h-full md:h-1/2 flex justify-center md:justify-start items-center opacity-45 md:opacity-50 ">
+    <div className="w-full max-w-xs md:max-w-screen-2xl scale-75 md:scale-100 lg:scale-125">
         <FadeIn delay={0.2} direction="left">
         <Logo3D />
         </FadeIn>
