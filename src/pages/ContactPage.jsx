@@ -174,7 +174,9 @@ const ContactPage = () => {
                 <h3 className="text-xl font-bold mb-6 text-white">Información de contacto</h3>
                 <div className="space-y-4">
                   <a
-                    href="mailto:support@ambardev.com"
+                    href="https://mail.google.com/mail/?view=cm&to=support@ambardev.com&su=Quiero%20iniciar%20un%20proyecto&body=Hola%20equipo%20de%20Ambar,%0A%0AEstoy%20interesado%20en%20iniciar%20un%20proyecto%20y%20me%20gustar%C3%ADa%20recibir%20informaci%C3%B3n%20sobre%20c%C3%B3mo%20podemos%20trabajar%20juntos.%0A%0AGracias,%0A%5BTu%20nombre%5D"
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="group flex items-center space-x-4 bg-white/5 rounded-xl p-4 hover:bg-white/10 transition-all duration-300 border border-white/10 hover:border-white/20"
                   >
                     <div className="bg-white/10 rounded-lg p-3">
@@ -187,8 +189,11 @@ const ContactPage = () => {
                   </a>
 
                   <a
-                    href="tel:+573209590302"
+                    href="https://wa.me/573162799845?text=%C2%A1Hola%21%20Estoy%20interesado%20en%20iniciar%20un%20proyecto%20y%20me%20gustar%C3%ADa%20saber%20m%C3%A1s%20detalles.
+"
                     className="group flex items-center space-x-4 bg-white/5 rounded-xl p-4 hover:bg-white/10 transition-all duration-300 border border-white/10 hover:border-white/20"
+                    target='blank'
+
                   >
                     <div className="bg-white/10 rounded-lg p-3">
                       <Phone className="w-6 h-6 text-gray-300" />
@@ -196,6 +201,7 @@ const ContactPage = () => {
                     <div>
                       <p className="text-sm text-gray-500 mb-1">Teléfono / WhatsApp</p>
                       <p className="text-white group-hover:text-gray-200 transition-colors">+57 320 959 0302</p>
+                      <p className="text-white group-hover:text-gray-200 transition-colors">+57 316 279 9845</p>
                     </div>
                   </a>
                 </div>

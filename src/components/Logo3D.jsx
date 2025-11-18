@@ -38,7 +38,7 @@ const CONFIG = {
   animation: {
     floatSpeed: 0.5,
     floatAmplitude: 0.2,
-    scrollMultiplier: { x: 2, y: 6 },
+    scrollMultiplier: { x: 1, y: 2 },
     smoothness: 0.01
   }
 };

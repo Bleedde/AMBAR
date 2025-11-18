@@ -16,19 +16,19 @@ const HomePage = () => {
 
         <div className="max-w-7xl mx-auto relative w-full z-10">
           <div className="text-center">
-            <FadeIn delay={0.2}>
+            <FadeIn delay={0.1} duration={0.8} direction="down">
               <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold mb-6 leading-tight px-4 pt-10">
                 Transforma tu empresa con Inteligencia Artificial
               </h1>
             </FadeIn>
 
-            <FadeIn delay={0.3}>
+            <FadeIn delay={0.2}>
               <p className="text-lg sm:text-xl text-gray-400 mb-12 max-w-3xl mx-auto leading-relaxed px-4">
                 Creamos soluciones inteligentes a medida que impulsan tu productividad, aumentan tus ganancias y optimizan la gestión de tu negocio.
               </p>
             </FadeIn>
 
-            <FadeIn delay={0.4}>
+            <FadeIn delay={0.3}>
               <div className="flex flex-col sm:flex-row gap-4 justify-center px-4">
                 <button onClick={() => navigate('/contacto')} className="group bg-white hover:bg-gray-100 text-black px-8 py-4 rounded-full font-semibold transition-all duration-300 shadow-lg shadow-white/20 hover:shadow-white/40 hover:scale-105 flex items-center justify-center space-x-2">
                   <span>Comenzar ahora</span>
@@ -48,7 +48,7 @@ const HomePage = () => {
               { icon: Zap, text: 'Implementación rápida', delay: 0.6 },
               { icon: TrendingUp, text: 'Resultados medibles', delay: 0.7 }
             ].map((item, idx) => (
-              <FadeIn key={idx} delay={item.delay}>
+              <FadeIn key={idx} delay={0.4 + idx * 0.1} direction='left'>
                 <div className="bg-white/5 backdrop-blur-sm border border-white/10 rounded-2xl p-6 hover:bg-white/10 hover:border-white/20 transition-all duration-300 hover:scale-105 hover:-translate-y-1">
                   <item.icon className="w-8 h-8 text-gray-300 mb-3" />
                   <p className="text-gray-300">{item.text}</p>
@@ -58,12 +58,12 @@ const HomePage = () => {
           </div>
 
           {/* Tech Partners */}
-          <FadeIn delay={0.8}>
+          <FadeIn delay={0.5}>
             <Tech />
           </FadeIn>
 
           {/* Video Section */}
-          <FadeIn delay={0.9}>
+          <FadeIn delay={0}>
             <div className="mt-24">
               <div className="bg-gradient-to-br from-white/10 to-white/5 border border-white/10 rounded-3xl p-8 md:p-12 hover:bg-white/[0.05] hover:scale-105 transition-all duration-300">
                 <div className="flex items-center justify-center space-x-3 mb-6">
