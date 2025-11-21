@@ -25,6 +25,7 @@
   0% {
     transform: translateX(0);
   }
+
   100% {
     transform: translateX(-50%);
   }
@@ -36,7 +37,7 @@
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: gray; 
+  background-color: gray;
 }
 
 ::-webkit-scrollbar-thumb:hover {
@@ -52,6 +53,7 @@
     opacity: 0;
     transform: translateY(30px);
   }
+
   to {
     opacity: 1;
     transform: translateY(0);
@@ -63,6 +65,7 @@
     opacity: 0;
     transform: translateY(-30px);
   }
+
   to {
     opacity: 1;
     transform: translateY(0);
@@ -74,6 +77,7 @@
     opacity: 0;
     transform: translateX(-30px);
   }
+
   to {
     opacity: 1;
     transform: translateX(0);
@@ -85,6 +89,7 @@
     opacity: 0;
     transform: translateX(30px);
   }
+
   to {
     opacity: 1;
     transform: translateX(0);
@@ -97,6 +102,7 @@
     opacity: 0;
     transform: scale(0.9);
   }
+
   to {
     opacity: 1;
     transform: scale(1);
@@ -109,6 +115,7 @@
     opacity: 0;
     transform: rotate(-5deg);
   }
+
   to {
     opacity: 1;
     transform: rotate(0deg);
@@ -141,20 +148,44 @@
 }
 
 /* Delays para animaciones en cascada */
-.delay-100 { animation-delay: 0.1s; }
-.delay-200 { animation-delay: 0.2s; }
-.delay-300 { animation-delay: 0.3s; }
-.delay-400 { animation-delay: 0.4s; }
-.delay-500 { animation-delay: 0.5s; }
-.delay-600 { animation-delay: 0.6s; }
-.delay-700 { animation-delay: 0.7s; }
-.delay-800 { animation-delay: 0.8s; }
+.delay-100 {
+  animation-delay: 0.1s;
+}
+
+.delay-200 {
+  animation-delay: 0.2s;
+}
+
+.delay-300 {
+  animation-delay: 0.3s;
+}
+
+.delay-400 {
+  animation-delay: 0.4s;
+}
+
+.delay-500 {
+  animation-delay: 0.5s;
+}
+
+.delay-600 {
+  animation-delay: 0.6s;
+}
+
+.delay-700 {
+  animation-delay: 0.7s;
+}
+
+.delay-800 {
+  animation-delay: 0.8s;
+}
 
 /* Animación del marquee para tech partners */
 @keyframes marquee {
   0% {
     transform: translateX(0);
   }
+
   100% {
     transform: translateX(-50%);
   }
@@ -167,10 +198,6 @@
 .marquee {
   animation: marquee 40s linear infinite;
   will-change: transform;
-}
-
-.marquee:hover {
-  animation-play-state: paused;
 }
 
 /* Transiciones suaves para el scroll */
@@ -207,9 +234,12 @@ html {
 
 /* Animación de pulso suave */
 @keyframes pulse-soft {
-  0%, 100% {
+
+  0%,
+  100% {
     opacity: 1;
   }
+
   50% {
     opacity: 0.8;
   }
